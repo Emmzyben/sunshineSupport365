@@ -5,8 +5,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 10000;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #f9fafb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header>div {
@@ -79,10 +79,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9fafb;
 }
 
 #side {
-    background-color: #fff;
+    background-color: #f9fafb;
     padding: 20px;
     display: none;
     z-index: 10000;
@@ -102,7 +103,7 @@ body {
 .bar3 {
     width: 30px;
     height: 2px;
-    background-color: #ffffff;
+    background-color: #1A9F4B;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -239,7 +240,7 @@ button a:hover {
 
 #two {
     text-align: center;
-    background-color: #ffffff;
+    background-color: #f9fafb;
     padding: 70px;
     color: #1A9F4B;
     border-bottom: 1px solid #eee;
@@ -289,8 +290,8 @@ button a:hover {
     background-color: #ffffff;
     color: #1A9F4B;
     height: 480px;
-    border: 1px solid rgba(0,0,0,0.08);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
@@ -298,7 +299,7 @@ button a:hover {
 
 #services1>div:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 #services1 p {
@@ -323,7 +324,7 @@ button a:hover {
     overflow-x: auto;
     margin: 40px;
     overflow-y: hidden;
-    background-color: #fff;
+    background-color: #f9fafb;
 }
 
 #guarantee {
@@ -357,8 +358,8 @@ button a:hover {
     flex-wrap: wrap;
     margin: 50px;
     padding: 20px;
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 #services3>div {
@@ -380,7 +381,7 @@ button a:hover {
     flex-wrap: wrap;
     margin: 50px;
     padding: 20px;
-    border-bottom: 4px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 #services4>div {
@@ -388,6 +389,11 @@ button a:hover {
     text-align: left;
     text-decoration: none;
     width: 45%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 #services4 img {
@@ -409,9 +415,9 @@ button a:hover {
     text-align: left;
     text-decoration: none;
     width: 25%;
-    border: 1px solid rgba(0,0,0,0.08);
+    border: 1px solid rgba(0, 0, 0, 0.08);
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     height: 450px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -419,7 +425,7 @@ button a:hover {
 
 #box>div:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 #box2 {
@@ -437,9 +443,9 @@ button a:hover {
     text-align: left;
     text-decoration: none;
     width: 17%;
-    border: 1px solid rgba(0,0,0,0.08);
+    border: 1px solid rgba(0, 0, 0, 0.08);
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     height: 490px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -447,7 +453,7 @@ button a:hover {
 
 #box2>div:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 #services4 form>input,
@@ -460,7 +466,7 @@ textarea {
 }
 
 footer {
-    background-color: #ffffff;
+    background-color: #f9fafb;
     border-top: 1px solid #eee;
 }
 
@@ -510,8 +516,8 @@ footer h3 {
 #bookNow>div {
     width: 25%;
     margin: 10px;
-    border: 1px solid rgba(0,0,0,0.08);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
@@ -519,7 +525,7 @@ footer h3 {
 
 #bookNow>div:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 #bookNow img {
@@ -737,7 +743,7 @@ footer h3 {
         z-index: 100000;
         top: 0;
         left: 0;
-        background-color: #ffffff;
+        background-color: #f9fafb;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
